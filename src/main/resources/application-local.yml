@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+        web-admin-password: d8fa0c6442db46966061c3120a2c2099397973e34d6994b9d4f0c1e2300e9d44eff058afc4e052c635de85e8250f1ae3b82a2c742507737783ffa958cf3f0836
+#        uzik-diary1234!
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:uzik-diary
+    username: sa
+    password: 1234
